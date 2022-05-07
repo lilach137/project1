@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activities.homePage_Activity"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/homePage_IMG_background"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bc_home_page" />
+
+    <TextView
+        android:id="@+id/homePage_TXT_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="100dp"
+
+        android:gravity="center"
+        android:text="Hello Lilach"
+        android:textColor="@color/white"
+        android:textSize="40dp">
+
+    </TextView>
+    <LinearLayout
+        android:id="@+id/homePage_linerGame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:layout_below="@+id/homePage_TXT_name"
+        android:orientation="horizontal">
+
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/homePage_BTN_newGameButtons"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="NEW GAME buttons"
+            android:textColor="@color/white"
+            app:cornerRadius="50dp"
+            android:layout_weight="1"
+            app:strokeColor="@color/white" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/homePage_BTN_newGameSensors"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_below="@+id/home_BTN_newGameButtons"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10dp"
+            android:text="NEW GAME sensors"
+            android:textColor="@color/white"
+            app:cornerRadius="50dp"
+            app:strokeColor="@color/white" />
+
+    </LinearLayout>
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/homePage_BTN_topTen"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/homePage_linerGame"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:text="top ten"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        app:cornerRadius="50dp"
+        app:strokeColor="@color/white" />
+
+</RelativeLayout>

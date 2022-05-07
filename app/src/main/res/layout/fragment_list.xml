@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/fList_IMG_background"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:src="@drawable/bc_home_page" />
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:id="@+id/fList_linear"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/fList_BTN_place1"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:textAlignment="gravity"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:visibility="invisible"
+                app:icon="@drawable/bt_top10"
+                app:iconSize="40dp"
+                app:iconTint="@android:color/white" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/fList_BTN_place2"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:gravity="right"
+                android:textAlignment="gravity"
+                app:icon="@drawable/bt_top10"
+                app:iconSize="40dp"
+                app:iconTint="@android:color/white"
+                android:visibility="invisible"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/fList_BTN_place3"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:gravity="right"
+                android:textAlignment="gravity"
+                app:icon="@drawable/bt_top10"
+                app:iconSize="40dp"
+                app:iconTint="@android:color/white"
+                android:visibility="invisible"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/fList_BTN_place4"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:gravity="right"
+                android:textAlignment="gravity"
+                app:icon="@drawable/bt_top10"
+                app:iconSize="40dp"
+                app:iconTint="@android:color/white"
+                android:visibility="invisible"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/fList_BTN_place5"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:gravity="right"
+                android:textAlignment="gravity"
+                app:icon="@drawable/bt_top10"
+                app:iconSize="40dp"
+                app:iconTint="@android:color/white"
+                android:visibility="invisible"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/fList_BTN_place6"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:gravity="right"
+                android:textAlignment="gravity"
+                app:icon="@drawable/bt_top10"
+                app:iconSize="40dp"
+                app:iconTint="@android:color/white"
+                android:visibility="invisible"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/fList_BTN_place7"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:gravity="right"
+                android:textAlignment="gravity"
+                app:icon="@drawable/bt_top10"
+                app:iconSize="40dp"
+                app:iconTint="@android:color/white"
+                android:visibility="invisible"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/fList_BTN_place8"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:gravity="right"
+                android:textAlignment="gravity"
+                app:icon="@drawable/bt_top10"
+                app:iconSize="40dp"
+                app:iconTint="@android:color/white"
+                android:visibility="invisible"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/fList_BTN_place9"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:gravity="right"
+                android:textAlignment="gravity"
+                app:icon="@drawable/bt_top10"
+                app:iconSize="40dp"
+                app:iconTint="@android:color/white"
+                android:visibility="invisible"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/fList_BTN_place10"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:gravity="right"
+                android:textAlignment="gravity"
+                app:icon="@drawable/bt_top10"
+                app:iconSize="40dp"
+                app:iconTint="@android:color/white"
+                android:visibility="invisible"/>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
